@@ -1,0 +1,21 @@
+﻿# Java
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+!**/src/main/**/*.jar
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Secrets
+.env
+*.env
+application-local.properties
