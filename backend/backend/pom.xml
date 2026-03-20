@@ -45,6 +45,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Health check y monitoreo para Railway -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<!-- Jackson para parsear fechas (LocalDate, LocalDateTime) -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
